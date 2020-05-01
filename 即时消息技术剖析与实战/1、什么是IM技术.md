@@ -8,7 +8,7 @@ https://baike.baidu.com/item/%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF/111144
 ```
 
 ## 应用场景&功能
-![markdown](https://github.com/youngperson/reading/blob/master/%E5%8D%B3%E6%97%B6%E6%B6%88%E6%81%AF%E6%8A%80%E6%9C%AF%E5%89%96%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%88%98/images/%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF.png)
+![markdown](https://github.com/youngperson/reading/blob/master/%E5%8D%B3%E6%97%B6%E6%B6%88%E6%81%AF%E6%8A%80%E6%9C%AF%E5%89%96%E6%9E%90%E4%B8%8E%E5%AE%9E%E6%88%98/images/application.png)
 
 # 问题和解决方案
 ```
