@@ -12,6 +12,13 @@
 - 采用统计，show table status：索引统计的值是通过采样来估算的，show table status 命令显示的行数也不能直接使用
 - 用缓存保持计数，存在丢失更新的问题、值在逻辑上不精准（两个不同的存储构成的系统，不支持分布式事务，无法拿到精确一致的视图）
 - 用数据库保持计数，在计数的地方使用事务解决精准的问题（拿到精确一致的视图）
+```
+  CREATE TABLE `rows_stat` (
+    `table_name` varchar(64) NOT NULL,
+    `row_count` int(10) unsigned NOT NULL,
+    PRIMARY KEY (`table_name`)
+  ) ENGINE=InnoDB;
+```
 
 # 不同count的用法
 - count(字段)：InnoDB 引擎会遍历整张表，把每一行的字段值取出来，server 层要什么字段，InnoDB 就返回什么字段
